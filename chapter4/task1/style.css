@@ -1,0 +1,118 @@
+.hat{
+	color: white;
+	background: darkblue;
+	display: flex; 
+    width: 98%; 
+    margin: auto;
+}
+.parent{
+	display: flex;
+	margin: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	justify-content: space-between;
+}
+
+.contains{
+	display: flex;
+	justify-content: space-around;
+}
+.info{
+	width: 20%;
+	height: 665px;
+	border: 1px gray solid;
+	 margin: 5px 5px 10px;
+}
+.info p{
+	font-weight: bold;
+	padding-left: 5px;
+}
+.profile{
+	border: 1px silver dotted;
+	padding-top: 5px ;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	color: darkslategray;
+}
+.profiletext{
+	color: gray;
+	font-size: 10px;
+	width: 220px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+.news{
+	width: 50%;
+}
+.news h4{
+	margin: 8px;
+}
+.news p4{
+	margin: 15px;
+}
+.Line {
+    margin-bottom: 40px;
+}
+.Line img {
+    width: 70%;
+}
+.Messages {
+    width: 20%;
+}
+.MessageTitle {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.Messages h4 {
+    font-size: 14px;
+    margin: 10px 0;
+}
+.Messages {
+    font-size: 14px;
+    margin: 10px 0;
+}
+.Message {
+    padding: 10px;
+    border: 1px solid rgb(168, 168, 168);
+}
+
+h5 {
+    font-size: small;
+}
+h6 {
+    font-weight: 100;
+}
+h5, h6 {
+    margin: 5px 0;
+}
+.MessageTitle h4, .Time {
+    margin: 5px 0;
+    font-size: 13px;
+}
+.FriendList{
+	width: 50%;
+}
+.Friend{
+	display: flex;
+	width: 80%;
+	padding: 10px;
+}
+.Avatar{
+	height: 150px;
+	width: 150px;
+	border-radius: 120px;
+}
+.FriendInfo{
+	width: 100%;
+	padding-left: 15px;
+}
+.Friend button{
+	border: none;
+	padding: 5px;
+	background-color: darkgrey;
+	color: white;
+}
