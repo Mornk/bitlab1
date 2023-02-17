@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript</title>
+    </head>
+    <body>
+
+        <!-- <script> //Task1
+            let x = parseInt(prompt("Insert a number"))
+            alert(x*x + 2*x -1)
+        </script> -->
+
+        <!-- <script> //Task2
+            let a = parseInt(prompt("Insert a "))
+            let b = parseInt(prompt("Insert b "))
+            if(a%b==0){
+                alert("Divisible")
+            }else{
+                alert("Not Divisible")
+            }
+        </script> -->
+
+        <!-- <script> //Task3
+            let name = prompt("Insert Name:")
+            let surname = prompt("Insert Surname:")
+            let city = prompt("Insert City:")
+            let age = parseInt(prompt("Insert Age"))
+            alert(`Name:${name}\nSurname:${surname}\nCity:${city}\nAge:${age}`)
+        </script>  -->
+        
+        <!-- <script> //Task4
+            let a = parseInt(prompt("Insert a:"))
+            let b = parseInt(prompt("Insert b:"))
+            let c = parseInt(prompt("Insert b:"))
+            let s = a+b+c
+            let r = a-b-c
+            let m = a*b*c
+            alert(`
+            a+b+c=${s}
+            a-b-c=${r}
+            a*b*c=${m}`)
+        </script> -->
+
+        <!-- <script> //Task5
+            let n = parseInt(prompt("Insert n"))
+            let k = parseInt(prompt("Insert k"))
+            let sum = (k-k%n)/n
+            alert(sum)
+        </script> -->
+
+        <!-- <script> //Task6
+            let a = parseInt(prompt("Insert a"))
+            let b = parseInt(prompt("Insert b"))
+            alert(Math.sqrt(a*a + b*b))
+        </script> -->
+
+        <!-- <script type="text/javascript"> //TASK7
+        let a = prompt("Speed Km");
+        let b = prompt("Distance");
+        if (b/a<=2.15) alert("YES, YOU CAN REACH")
+        else alert("NO, YOU CAN NOT REACH")        
+        </script> -->
+
+    <!-- <script type="text/javascript"> //Task8
+            let a = parseInt(prompt("Numbers of Wiskas"));
+            let b = 120;
+            let c = a*b;
+            if (c>4000) {alert(c-c/10)}
+                else alert(c)
+
+        </script> -->
+
+<!--         <script type="text/javascript">//Task9
+                let money = prompt("Insert numbers of money")
+    let currency = prompt("INSERT YOUR AMOUNT IN KZT:" + "\n" +
+                     "1- CONVERT TO USD" + "\n" +
+                     "2- CONVERT TO EUR" + "\n" +
+                     "3- CONVERT TO GBP");
+     if (currency==1) alert(money/380 + " USD")
+     else if (currency==2) alert(money/430 + " EUR")
+     else if (currency==3) alert(money/480 + " GBP")
+        </script>
+ -->
+
+<!--         <script type="text/javascript"> //Task10
+            let login = "user";
+        let pass = "qwerty";
+        let authLogin = prompt("Insert Login");
+        let authPass = prompt("Insert password");
+        if (login==authLogin && pass==authPass) 
+        alert("Authentication completed")
+        else alert("Invalid login or password")
+        </script> -->
+
+<!--         <script type="text/javascript">//Task11
+        let year = parseInt(prompt("Insert year"));
+        if (year%4==0 && year%100!=0 || year%400==0)
+            alert("YES")
+        else alert("NO")
+        </script> -->
+
+<!--         <script type="text/javascript"> //Task12
+         let balls = parseInt(prompt("Number of balls"));
+        if (balls>=90) alert("A")
+        else if (balls>=75 && balls<90) alert("B")
+        else if (balls>=60 && balls<75) alert("C")
+        else if (balls>=50 && balls<60) alert("d")
+        else alert("F")       
+        </script> -->
+
+<!--         <script type="text/javascript"> //Task13
+                 let branch = parseInt(prompt("Choose your branch:"+" \n"+
+                                  "1 - Science"+" \n"+ 
+                                  "2 - Humanitarian subjects"+" \n"+
+                                  "3 - Art, 4 - Sport:"))
+     if (branch==1) {
+       let science = parseInt(prompt("1 - Math, 2 - Physics:"))
+       if (science==1) alert("You are Financier")
+       else alert("You are Engineer")
+     }
+     if (branch==2) {
+       let Humanitarian = parseInt(prompt("1 - History, 2 - Foreign Languages:"))
+       if (Humanitarian==1) alert("You are Historic or Diplomat")
+       else alert("You are Translator")
+     }
+     if (branch==3) {
+       let Art = parseInt(prompt("1 - Drawing, 2 -Singing:"))
+       if (Art==1) alert("You are Painter or Architect")
+       else alert("You are Singer or Tamada")
+     }
+     if (branch==4) {
+       let Sport = parseInt(prompt("1 - Team, 2 - Individual:"))
+       if (Sport==1) alert("You are footballer or Basketball player")
+       else alert("You are boxer or tennis player")
+     }
+        </script> -->
+
+<!--         <script type="text/javascript"> //Task14
+        let a = parseInt(prompt("Insert side 1"))
+        let b = parseInt(prompt("Insert side 2"))
+        let c = parseInt(prompt("Insert side 3"))
+        if (a+b>c && a+c>b && c+b>a) 
+        alert("YES")
+        else alert("NO")
+        </script>
+ -->
+
+<!--         <script type="text/javascript"> //Task15
+        const tenge = parseInt(prompt("Insert tenge"))
+        const dollarRate = 380
+        let dollars = tenge / dollarRate
+        dollars = Math.floor(dollars)
+        let cents = (tenge - dollars * dollarRate) / dollarRate * 100
+        cents = Math.round(cents)
+        let result = dollars + " USD"
+        if (cents !== 0) alert (result += " and " + cents + " cents")
+        else alert(result = "ONLY " + result)           
+        </script>
+ -->
+
+<!--     <script type="text/javascript"> //Task16
+     const min = parseInt(prompt("Minutes"))
+    const minInHour = 60;
+    let hour = Math.floor(min / minInHour)
+    let minutes = min%minInHour
+    if (minutes==0) alert("ONLY "+hour+" HOURS")
+    else alert(hour+"HOURS and "+minutes+" MINUTES")       
+    </script> -->
+
+    </body>
+</html>
